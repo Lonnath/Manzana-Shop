@@ -23,17 +23,11 @@
 		<div id="carouselExampleControls" class="carousel slide"
 			data-ride="carousel">
 			<div class="carousel-inner">
-				<div class="carousel-item active itemPos">
-					TiTulo 1
-				</div>
-				<div class="carousel-item itemPos">
-					Titulo 2
-				</div>
-				<div class="carousel-item itemPos">
-					Titulo 3
-				</div>
-			<img class="carrouselImg" src="img/banner.jpg">
-			
+				<div class="carousel-item active itemPos">TiTulo 1</div>
+				<div class="carousel-item itemPos">Titulo 2</div>
+				<div class="carousel-item itemPos">Titulo 3</div>
+				<img class="carrouselImg" src="img/banner.jpg">
+
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleControls"
 				role="button" data-slide="prev"> <span
@@ -46,11 +40,29 @@
 			</a>
 		</div>
 	</nav>
-	<section>
-		<article>
-			Quienes Somos
-		</article>
-	</section>
+	<div class="container-fluid">
+		<section>
+			<article>
+				<h4>Quienes Somos</h4>
+				<p>Manzana es una empresa dedicada a la venta online de
+					productos tecnologicos. Nuestro objetivo es ofrecer la tecnologia
+					más actual a los mejores precios. Tenemos a su disposición una gran
+					variedad de productos, los cuales son renovados cada temporada para
+					dar siempre lo mas actual en el mercado. Tenemos un equipo que está
+					dedicado a satisfacer tus necesidades y que te contestará a tus
+					dudas con la mayor brevedad posible. Para una mejor comunicación
+					puedes contactar con nosotros a través de WhatsApp o mensaje
+					privado de Facebook y tan sólo en unos minutos tu duda será
+					resuelta.</p>
+
+				<h4>Novedades Productos</h4>
+			</article>
+		</section>
+		<aside>
+			<img class="asideImg" src="img/asideImg.png">
+		</aside>
+
+	</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>

@@ -17,3 +17,20 @@
 	color:white;
 	font-size: 30px;
 }
+
+section{
+	width:60%;
+	heigth:auto;
+	float: left;
+}
+aside{
+	width:40%;
+	heigth:auto;
+	float: left;	
+}
+.asideImg{
+	width:100%;
+	heigth:100%;
+}
+
+
