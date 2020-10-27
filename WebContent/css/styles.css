@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.navImg {
+	width: 40px;
+	heigth: 40px;
+}
+
+.carrouselImg {
+	width: 100%;
+	heigth: 300px;
+}
+
+.itemPos{
+	position:absolute;
+	top:20%;
+	left:30%;
+	color:white;
+	font-size: 30px;
+}
